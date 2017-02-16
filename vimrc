@@ -30,7 +30,7 @@ map <C-b> :set fileencoding=big5
 " 超快速搜尋
 set incsearch
 
-" 標記關鍵字(:noh來取消)
+" 標記關鍵字(:noh來取消) =hls
 set hlsearch
 
 " 啟用行游標提示
@@ -56,3 +56,6 @@ if &term =~ "xterm.*"
     cmap <Esc>[200~ <nop>
     cmap <Esc>[201~ <nop>
 endif
+
+"set t_Co=256 "default
+colorscheme delek
