@@ -22,10 +22,11 @@ set autoindent
 "調整編碼
 set fileencodings=utf8,big5,gbk,latin1
 set <C-u>=^U
-set <C-b>=^B
+set <C-d>=^D
 map <C-u> :set fileencoding=utf8
-map <C-b> :set fileencoding=big5
-" Ctrl+u , Ctrl+b 設置編碼
+map <C-d> :set fileencoding=big5
+" Ctrl+u, Ctrl+d 設置編碼.
+" Origin: Ctrl-D move half-page down. Ctrl-U move half-page up.
 
 " 超快速搜尋
 set incsearch
