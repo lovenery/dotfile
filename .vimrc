@@ -19,6 +19,9 @@ set cindent
 "自動縮排:按Enter後停在相同行數
 set autoindent
 
+"顯示編碼
+set encoding=utf-8
+
 "調整編碼
 set fileencodings=utf8,big5,gbk,latin1
 set <C-u>=^U
