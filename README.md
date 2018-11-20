@@ -1,6 +1,8 @@
 # My dotfiles
 
-```
+## Install
+
+```bash
 cd ~
 git clone https://github.com/lovenery/dotfile.git
 cp dotfile/.vimrc .
@@ -11,4 +13,10 @@ git clone https://github.com/magicmonty/bash-git-prompt.git .bash-git-prompt
 
 source ~/.bash-git-prompt/gitprompt.sh # in .bashrc or .bash_profile
 echo "source ~/.bash-git-prompt/gitprompt.sh" >> .bash_profile
+```
+
+## Uninstall
+
+```bash
+rm -rf .git-prompt-colors.sh .bash-git-prompt/ .vimrc .bash_profile
 ```
